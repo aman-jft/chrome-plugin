@@ -1,0 +1,22 @@
+  {
+    "name": "Key Wallet (Ctrl+Shift+K)",
+    "description": "Stores password and phrases",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "images/128.png",
+        "256": "images/256.png"
+      }
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+K",
+          "mac": "MacCtrl+Shift+K"
+        },
+        "description": "Opens popup"
+      }
+    }
+  }
